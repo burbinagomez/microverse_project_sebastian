@@ -1,15 +1,29 @@
-nav{
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+header{
+    background-color: blue;
+    display: inline-flex;
     top: 0;
     position: fixed;
     width: 20px;
     padding: 20px;
+}
+#nav-bar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
-
 }
 
 li a{
@@ -18,11 +32,11 @@ li a{
 }
 
 #header-img{
-    width: 10%;
+    width: 80px;
 }
 
 .box{
-    display:flex;
+    display:inline-block;
     justify-content: center;
     align-items: center;
     padding: 2em;
@@ -33,6 +47,6 @@ section{
 }
 
 @media (max-width: 650px) {
-    
+
 
 }
